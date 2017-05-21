@@ -15,21 +15,26 @@
 }
 .drawing-1 {
   background: url(./images/drawing-1.jpg);
-  background-size: cover;
+  background-size: 254%;
+  background-position: -251px;
 }
 .drawing-2 {
   background: url(./images/drawing-2.jpg);
-  background-size: cover;
+  background-size: 276%;
+  background-position: left -147px top -10px;
 }
 .drawing-3 {
   background: url(./images/drawing-3.jpg);
-  background-size: cover;
+  background-size: 200%;
+  background-position: left -200px top -10px;
 }
 .drawing-4 {
   background: url(./images/drawing-4.jpg);
-  background-size: cover;
+  background-size: 408%;
+  background-position: left -563px top -95px;
 }
 .drawing-5 {
   background: url(./images/drawing-5.jpg);
-  background-size: cover;
+  background-size: 368%;
+  background-position: left -263px top -105px;
 }
