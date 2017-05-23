@@ -44,30 +44,38 @@
 .cubes div {
   height: 150px;
   width: 150px;
+  position: relative;
 }
 
 .blueCube {
   background-color: blue;
+  position: absolute;
 }
 
 .redCube {
   background-color: red;
+  position: absolute;
 }
 
 
 
-
-/*@-webkit-@keyframes slide {
+@keyframes slide {
   0% {
     left: 0;
     top: 0;
   }
-  50% {
-    left: 244px;
-    top: 100px;
-  }
+  /*50% {
+    left: 25%;
+    top: -25vh;
+  }*/
   100% {
-    left: 488px;
-    top: 0;
+    left: calc(50% - 75px);
+    top: calc(-50vh + 75px);
   }
-}*/
+}
+
+.redCube:hover {
+  animation: slide 1s ease-in-out forwards;
+  /*animation-delay: .5s;*/
+}
+
