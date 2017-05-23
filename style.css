@@ -38,3 +38,36 @@
   background-size: 368%;
   background-position: left -263px top -105px;
 }
+
+/********* Cubes **********/
+
+.cubes div {
+  height: 150px;
+  width: 150px;
+}
+
+.blueCube {
+  background-color: blue;
+}
+
+.redCube {
+  background-color: red;
+}
+
+
+
+
+/*@-webkit-@keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 244px;
+    top: 100px;
+  }
+  100% {
+    left: 488px;
+    top: 0;
+  }
+}*/
